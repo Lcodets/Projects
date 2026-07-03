@@ -32,7 +32,7 @@ table, tr, th, td {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
     min-height: 100vh;
     background:url('health.jpg') no-repeat;
     background-size: cover;
@@ -46,6 +46,7 @@ table, tr, th, td {
     border: 2px solid rgba(128, 128, 128, 0.2);
     border-radius: 10px;
     padding: 30px 40px; 
+    transform: translateY(-140px);
 }
 
 .Boks1 h1{
